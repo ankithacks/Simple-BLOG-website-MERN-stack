@@ -21,7 +21,8 @@ export default function SideBar() {
         <span className="sideBarTitle"><b>CREATOR INFO:-</b></span>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRBxi3EXxlpD2LGk3jB51C8YhsnUiNuYkSDr9JL8nu&s" alt="" />
         <p>
-            Hi there folks...My name is <b>ANKIT CHAKRABORTY</b> and I try to develop as much full stack WEB apps using different tech stacks and present scenarios of the market. Do check this website of blog.😊
+            {/* Hi there folks...My name is <b>ANKIT CHAKRABORTY</b> and I try to develop as much full stack WEB apps using different tech stacks and present scenarios of the market. Do check this website of blog.😊 */}
+            hello there
         </p>
       </div>
       <div className="sideBarItem">

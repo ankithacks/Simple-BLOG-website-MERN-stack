@@ -30,15 +30,15 @@ export default function Topbar() {
           </li>
           <li className="topListItem"><Link className="link" to={"/"} >CONTACT US</Link></li>
           <li className="topListItem"><Link className="link" to={"/write"} >WRITE</Link></li>
-          {/* <li className="topListItem" onClick={handleLogout}> */}
-            {/* <Link className="link" to={"/"} > */}
-              {/* {user && "LOGOUT"} */}
+          <li className="topListItem" onClick={handleLogout}>
+            <Link className="link" to={"/"} >
+              {user && "LOGOUT"}
               {/* this above line means that if there is a user logged in then only show else nope */}
-            {/* </Link> */}
-          {/* </li> */}
+            </Link>
+          </li>
         </ul>
       </div>
-      {/* <div className="topRight">
+      <div className="topRight">
         {
           user ? (
             <Link to="/settings">
@@ -62,7 +62,7 @@ export default function Topbar() {
           )
         }
         <i className="topSearchIcon fas fa-search"></i>
-      </div> */}
+      </div>
     </div>
   );
 }
